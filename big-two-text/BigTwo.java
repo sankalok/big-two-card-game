@@ -30,7 +30,7 @@ public class BigTwo
 	private BigTwoConsole bigTwoConsole;
 	/**
 	 * A constructor for creating a Big Two card game. Created 4 
-	 * players and add them to the player list. Created a ‘console’ (i.e., a 
+	 * players and add them to the player list. Created a â€˜consoleâ€™ (i.e., a 
 	 * BigTwoConsole object) for providing the user interface.
 	 */
 	public BigTwo()
@@ -196,14 +196,14 @@ public class BigTwo
 			if(legalHand == true)
 			{
 				/**
-				 * At each player’s turn, the program should print out the cards held by each player 
+				 * At each playerâ€™s turn, the program should print out the cards held by each player 
 				 * as well as the last hand played on the table, by calling the repaint() method of 
 				 * the BigTwoConsole object.
 				 */
 				bigTwoConsole.repaint();
 			}
 			/**
-			 * At each player’s turn, the program reads from the keyboard a space-separated list of
+			 * At each playerâ€™s turn, the program reads from the keyboard a space-separated list of
 			 * indices that represents the list of cards played by the player, by calling
 			 * the getSelected() method of the BigTwoConsole object.
 			 */
