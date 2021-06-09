@@ -206,7 +206,7 @@ public class BigTwo implements CardGame
 	/**
 	 * A method for making a move by a player with the specified playerID using the cards specified
 	 * by the list of indices. This method should be called from the BigTwoTable when the active 
-	 * player presses either the “Play” or “Pass” button. We simply call the checkMove() method
+	 * player presses either the â€œPlayâ€ or â€œPassâ€ button. We simply call the checkMove() method
 	 * from the CardGame interface with the playerID and cardIdx as the arguments.
 	 * 
 	 * @param playerId
