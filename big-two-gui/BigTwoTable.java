@@ -31,11 +31,11 @@ public class BigTwoTable implements CardGameTable
 	 */
 	private JPanel bigTwoPanel;
 	/**
-	 * A “Play” button for the active player to play the selected cards.
+	 * A â€œPlayâ€ button for the active player to play the selected cards.
 	 */
 	private JButton playButton;
 	/**
-	 * A “Pass” button for the active player to pass his/her turn to the next player.
+	 * A â€œPassâ€ button for the active player to pass his/her turn to the next player.
 	 */
 	private JButton passButton;
 	/**
@@ -317,13 +317,13 @@ public class BigTwoTable implements CardGameTable
 	 * A method for enabling user interactions with the GUI.
 	 * 
 	 * It does:
-	 * (i) enable the “Play” button and “Pass” button (i.e., making them clickable);
+	 * (i) enable the â€œPlayâ€ button and â€œPassâ€ button (i.e., making them clickable);
 	 * (ii) enable the BigTwoPanel for selection of cards through mouse clicks.
 	 */
 	public void enable()
 	{
 		/**
-		 * Enabling the “Play” button and “Pass” button (i.e., making them clickable).
+		 * Enabling the â€œPlayâ€ button and â€œPassâ€ button (i.e., making them clickable).
 		 */
 		playButton.setEnabled(true);
 		passButton.setEnabled(true);
@@ -336,13 +336,13 @@ public class BigTwoTable implements CardGameTable
 	 * A method for disabling user interactions with the GUI.
 	 * 
 	 * It does:
-	 * (i) disable the “Play” button and “Pass” button (i.e., making them not clickable);
+	 * (i) disable the â€œPlayâ€ button and â€œPassâ€ button (i.e., making them not clickable);
 	 * (ii) disable the BigTwoPanel for selection of cards through mouse clicks.
 	 */
 	public void disable()
 	{
 		/**
-		 * Disabling the “Play” button and “Pass” button (i.e., making them not clickable).
+		 * Disabling the â€œPlayâ€ button and â€œPassâ€ button (i.e., making them not clickable).
 		 */
 		playButton.setEnabled(false);
 		passButton.setEnabled(false);
@@ -788,8 +788,8 @@ public class BigTwoTable implements CardGameTable
 	}
 	/**
 	 * An inner class that implements the ActionListener interface. It implements the actionPerformed()
-	 * method from the ActionListener interface to handle button-click events for the “Play” button.
-	 * When the “Play” button is clicked, we call the makeMove() method of your CardGame
+	 * method from the ActionListener interface to handle button-click events for the â€œPlayâ€ button.
+	 * When the â€œPlayâ€ button is clicked, we call the makeMove() method of your CardGame
 	 * object to make a move.
 	 * 
 	 * @author Sankalok Sen (UID: 3035667869)
@@ -825,8 +825,8 @@ public class BigTwoTable implements CardGameTable
 	}
 	/**
 	 * An inner class that implements the ActionListener interface. It implements the actionPerformed()
-	 * method from the ActionListener interface to handle button-click events for the “Pass” button.
-	 * When the “Pass” button is clicked, we call the makeMove() method of your CardGame 
+	 * method from the ActionListener interface to handle button-click events for the â€œPassâ€ button.
+	 * When the â€œPassâ€ button is clicked, we call the makeMove() method of your CardGame 
 	 * object to make a move.
 	 * 
 	 * @author Sankalok Sen (UID: 3035667869)
@@ -851,8 +851,8 @@ public class BigTwoTable implements CardGameTable
 	}
 	/**
 	 * An inner class that implements the ActionListener interface. It implements the actionPerformed() 
-	 * method from the ActionListener interface to handle menu-item-click events for the “Restart” menu
-	 * item. When the “Restart” menu item is selected, we:
+	 * method from the ActionListener interface to handle menu-item-click events for the â€œRestartâ€ menu
+	 * item. When the â€œRestartâ€ menu item is selected, we:
 	 * 		(i) create a new BigTwoDeck object and call its shuffle() method;
 	 * 		(ii) call the start() method of your CardGame object with the BigTwoDeck object as an argument.
 	 * 
@@ -886,8 +886,8 @@ public class BigTwoTable implements CardGameTable
 	}
 	/**
 	 * An inner class that implements the ActionListener interface. It implements the actionPerformed() 
-	 * method from the ActionListener interface to handle menu-item-click events for the “Quit” menu item.
-	 * When the “Quit” menu item is selected, we should terminate your application. 
+	 * method from the ActionListener interface to handle menu-item-click events for the â€œQuitâ€ menu item.
+	 * When the â€œQuitâ€ menu item is selected, we should terminate your application. 
 	 * (You may use System.exit() to terminate your application.)
 	 * 
 	 * @author Sankalok Sen (UID: 3035667869)
